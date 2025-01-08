@@ -1,0 +1,10 @@
+^C:\USERS\HILMY\DOWNLOADS\TRACKING_CUACA\TRACKING_CUACA\BUILD\WINDOWS\X64\CMAKEFILES\80C5E22F4FB69A3E5D2AD3643B45E6B0\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/hilmy/Downloads/tracking_cuaca/tracking_cuaca/windows -BC:/Users/hilmy/Downloads/tracking_cuaca/tracking_cuaca/build/windows/x64 --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/hilmy/Downloads/tracking_cuaca/tracking_cuaca/build/windows/x64/tracking_cuaca.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

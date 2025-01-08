@@ -1,0 +1,10 @@
+^C:\USERS\HILMY\DOWNLOADS\TRACKING_CUACA\TRACKING_CUACA\BUILD\WINDOWS\X64\CMAKEFILES\80C5E22F4FB69A3E5D2AD3643B45E6B0\INSTALL_FORCE.RULE
+setlocal
+cd .
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
