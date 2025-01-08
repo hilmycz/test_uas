@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\hilmy\Downloads\tracking_cuaca\tracking_cuaca\build\windows\x64\CMakeFiles\3e2d54d0f408ae04a09291462efbae31\INSTALL_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{B675AE46-F0AA-3987-B824-1240DCC8695D}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
